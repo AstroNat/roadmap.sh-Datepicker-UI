@@ -7,22 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="calender-head">
-        <input placeholder="dd/mm/yyyy">
-        <button>D</button>
-    </div>
-    <section class="box1">
-        <center>
-            <p><</p>
-            <p>July 2025</p>
-            <p>></p>
-        </center>
-        <div id="days">
-            <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+    
+        <div class="calender-head">
+            <input placeholder="dd/mm/yyyy">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" height="15px" width="15px">
+                    <path d="M224 64C206.3 64 192 78.3 192 96L192 128L160 128C124.7 128 96 156.7 96 192L96 240L544 240L544 192C544 156.7 515.3 128 480 128L448 128L448 96C448 78.3 433.7 64 416 64C398.3 64 384 78.3 384 96L384 128L256 128L256 96C256 78.3 241.7 64 224 64zM96 288L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 288L96 288z"/>
+                </svg>
+            </button>
         </div>
-    </section>
-    <section class="box2">
-        
+    <div class="calender">
+        <section class="box1">
+            <center>
+                <p><</p>
+                <p>July 2025</p>
+                <p>></p>
+            </center>
+            <div id="days-of-week">
+                <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+            </div>
+        </section>
+
+        <section class="box2">
             <div class="days-grid">
                 <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span>
                 <span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span>
@@ -30,6 +36,7 @@
                 <span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span>
                 <span>29</span><span>30</span><span>31</span>
             </div>
-   </section>     
+    </section> 
+   </div>    
 </body>
 </html>
